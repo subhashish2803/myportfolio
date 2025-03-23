@@ -81,7 +81,7 @@ const Navbar = () => {
           </svg>
         }
         tooltip="Docs"
-        link="/"
+        link=""
       />
 
       {/* GitHub Link */}
