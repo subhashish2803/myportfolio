@@ -53,8 +53,12 @@ const SongList = () => {
       gap: "15px",
       padding: "20px",
       width: "100%",
-      overflowX: window.innerWidth <= 768 ? "auto" : "hidden", // Enable scrolling only for smaller screens
+      overflowX: "auto", // Allow horizontal scrolling
+      overflowY: "auto", // Allow vertical scrolling
+      maxHeight: "80vh", // Prevent excessive height usage
+      whiteSpace: "nowrap", // Keep items in a row
     },
+
     songCard: {
       flex: "0 0 auto",
       width: "200px",
