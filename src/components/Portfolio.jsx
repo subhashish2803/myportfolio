@@ -447,7 +447,7 @@ export default function Portfolio() {
       <Certifications />
 
       {/* Get in Touch Section */}
-      <section className="mt-16 text-center relative z-10">
+      <section className="sm:mt-6 text-center relative z-10">
         <h2 className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
           Contact
         </h2>
@@ -457,7 +457,7 @@ export default function Portfolio() {
         
       </section>
       <section className="text-center py-2">
-        <p className="text-lg lg:mb-8">
+        <p className="text-lg mb-8">
           Want to connect? Send me a message on{" "}
           <a
             href="https://www.linkedin.com/in/subhashish-nayak-422775310"

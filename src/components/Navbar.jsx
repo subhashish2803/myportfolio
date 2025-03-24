@@ -5,7 +5,7 @@ import { Code } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-white backdrop-blur-lg text-black px-2 py-2 rounded-full shadow-2xl flex gap-4 items-center w-max animate-float transition-all duration-500 hover:scale-x-110">
+    <nav className="fixed bottom-2 left-1/2 transform -translate-x-1/2 bg-white backdrop-blur-lg text-black px-2 py-2 rounded-full shadow-2xl flex gap-2 items-center w-max animate-float transition-all duration-500 hover:scale-x-110">
       {/* Home Link */}
       <NavItem icon={<HomeIcon />} tooltip="Home" link="/" />
 
