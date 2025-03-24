@@ -320,7 +320,7 @@ export default function Portfolio() {
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               transition={{ duration: 0.6 }}
             >
-              <span className="inline-block font-bold tracking-tighter xl:text-6xl">
+              <span className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-5xl">
                 <span className="from-green-400 to-green-400 bg-gradient-to-r text-transparent bg-clip-text">Hi,</span>{" "} I'm Subhashish<span className="lg:text-5xl"> 👋</span> 
               </span>
             </motion.div>
@@ -343,7 +343,7 @@ export default function Portfolio() {
             transition={{ duration: 1 }}
             
           >
-            <span className="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
+            <span className="relative flex shrink-0 overflow-hidden rounded-full size-38 border">
               <img
                 className="aspect-square h-full w-full brightness-110 contrast-125 grayscale hover:grayscale-0 transition duration-300"
                 alt="Smruti Dash"
@@ -354,7 +354,7 @@ export default function Portfolio() {
         </div>
       </div>
     </section>
-    <section id="about" className="w-full flex justify-center mt-12">
+    <section id="about" className="w-full flex justify-center lg:mt-10 mt-5">
       <div className="max-w-2xl mx-auto">
         {/* About Title */}
         <motion.div
@@ -418,7 +418,7 @@ export default function Portfolio() {
 
       {/* Strengths Section */}
       <section className="mt-16 text-center relative z-10 w-full max-w-6xl">
-        <h2 className="text-3xl font-semibold tracking-tighter sm:text-5xl">
+        <h2 className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
           Strengths
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
