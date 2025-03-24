@@ -320,7 +320,7 @@ export default function Portfolio() {
               animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
               transition={{ duration: 0.6 }}
             >
-              <span className="inline-block text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl">
+              <span className="inline-block font-bold tracking-tighter xl:text-6xl">
                 <span className="from-green-400 to-green-400 bg-gradient-to-r text-transparent bg-clip-text">Hi,</span>{" "} I'm Subhashish<span className="lg:text-5xl"> 👋</span> 
               </span>
             </motion.div>

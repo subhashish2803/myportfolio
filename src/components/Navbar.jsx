@@ -1,4 +1,3 @@
-// components/Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import { Code } from "lucide-react";
@@ -17,15 +16,24 @@ const Navbar = () => {
 
       {/* Docs Link */}
       <NavItem icon={<DocsIcon />} tooltip="Docs" link="/docs" />
-
+{/* Vertical Line After Resume */}
+<div className="shrink-0 bg-gray-400 w-[1px] h-6 mx-2"></div>
       {/* GitHub Link */}
-      <NavItem icon={<img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/>} tooltip="GitHub" externalLink="https://github.com/subhashish2803" />
+      <NavItem 
+        icon={<img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github" />} 
+        tooltip="GitHub" 
+        externalLink="https://github.com/subhashish2803" 
+      />
 
       {/* LinkedIn Link */}
       <NavItem icon={<LinkedInIcon />} tooltip="LinkedIn" externalLink="https://www.linkedin.com/in/subhashish-nayak-422775310" />
 
       {/* Instagram Link */}
-      <NavItem icon={<img width="20" height="20" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram"/>} tooltip="Instagram" externalLink="https://www.instagram.com/_.a.s.h.u.0.3._" />
+      <NavItem 
+        icon={<img width="20" height="20" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram" />} 
+        tooltip="Instagram" 
+        externalLink="https://www.instagram.com/_.a.s.h.u.0.3._" 
+      />
 
       {/* Download Resume Link */}
       <NavItem icon={<DownloadIcon />} tooltip="Resume" link="/Resume-jan-25.pdf" download="Subhashish_Nayak_Resume.pdf" />
@@ -35,12 +43,7 @@ const Navbar = () => {
 
 const NavItem = ({ icon, tooltip, link, externalLink, download }) => {
   return externalLink ? (
-    <a
-      href={externalLink}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="relative flex flex-col items-center group"
-    >
+    <a href={externalLink} target="_blank" rel="noopener noreferrer" className="relative flex flex-col items-center group">
       <IconWrapper>{icon}</IconWrapper>
       <Tooltip text={tooltip} />
     </a>
