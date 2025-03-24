@@ -78,7 +78,7 @@ export default function WorkExperience() {
             <div
               className={`overflow-hidden transition-all duration-500 ease-in-out ${openIndex === index ? "max-h-40 opacity-100 py-3" : "max-h-0 opacity-0"}`}
             >
-              <div className="text-xs sm:text-sm bg-gray-100 dark:bg-gray-800 p-3 rounded-md">
+              <div className="text-xs sm:text-sm bg-gray-100 p-3 rounded-md">
                 {exp.description}
               </div>
             </div>
