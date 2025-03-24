@@ -15,8 +15,8 @@ const BlogSection = () => {
         <div>
           <Link to="/blog/hello-world" className="flex flex-col space-y-1 mb-4">
             <div className="w-full flex flex-col">
-              <p className="tracking-tight">New Beginnings: My First Blog! 🌝</p>
-              <p className="h-6 text-xs text-muted-foreground">2025-02-03</p>
+              <p className="tracking-tight text-black">New Beginnings: My First Blog! 🌝</p>
+              <p className="h-6 text-xs text-black text-muted-foreground">2025-02-03</p>
             </div>
           </Link>
         </div>

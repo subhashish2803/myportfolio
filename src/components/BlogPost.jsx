@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogPost = () => {
     return (
-        <section id="blog" className="max-w-3xl mx-auto px-6 py-12 sm:py-24">
+        <section id="blog" className="max-w-3xl mx-auto px-6 py-12 sm:py-24 bg-gray-100 text-black">
             {/* JSON-LD Schema for SEO */}
             <script
                 type="application/ld+json"
