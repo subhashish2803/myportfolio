@@ -7,6 +7,7 @@ import { FaHandSparkles } from "react-icons/fa";
 import Navbar from "./Navbar";
 import Education from "./Education";
 import Skills from "./Skills";
+import WorkExperience from "./WorkExperience";
 const projects = [
   {
     title: "Trident Smart Attendance Tracker",
@@ -106,44 +107,6 @@ const ProjectCard = ({ project }) => {
         <p className="text-gray-500 text-sm mt-2">Duration: {project.duration}</p>
       </motion.div>
     </motion.div>
-  );
-};
-
-const Experience = () => {
-  const controls = useAnimation();
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start({ opacity: 1, y: 0, transition: { duration: 0.8 } });
-    } else {
-      controls.start({ opacity: 0, y: 50, transition: { duration: 0.8 } });
-    }
-  }, [controls, inView]);
-
-  return (
-    <motion.section
-      ref={ref}
-      animate={controls}
-      initial={{ opacity: 0, y: 50 }}
-      className="mt-16 w-full max-w-6xl relative z-10"
-    >
-      <h2 className="text-3xl font-semibold tracking-tighter sm:text-5xl mb-8">
-        Experience
-      </h2>
-      <div className="flex flex-col gap-6">
-        <motion.div
-          className="flex flex-col md:flex-row items-start md:items-center justify-between"
-          animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <p className="text-black font-mono text-xs md:text-base text-center">June 2024 - Sep 2024</p>
-          <p className="text-black text-xs md:text-base  font-mono text-right">
-            Internship at [@OCTANET pvt.ltd ] - Worked on [Realife Industrial Projects/Fullstack Developer]
-          </p>
-        </motion.div>
-      </div>
-    </motion.section>
   );
 };
 
@@ -393,6 +356,7 @@ export default function Portfolio() {
     </section>
     {/*   Education*/}
     <Education/>
+    <WorkExperience/>
     <Skills/>
       {/* Projects Section */}
       <section className="py-16 px-6 w-full">
@@ -439,9 +403,6 @@ export default function Portfolio() {
           ))}
         </div>
       </section>
-
-      {/* Experience Section */}
-      <Experience />
 
       {/* Certifications Section */}
       <Certifications />
