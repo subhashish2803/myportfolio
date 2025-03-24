@@ -54,10 +54,7 @@ const BlogPost = () => {
                         <source src="/companylogo/jaga.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    <video controls className="h-full w-full">
-                        <source src="/companylogo/krishna.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
+                    
                     <img src="/companylogo/20240826_172239.jpg" alt="We are chilling" className="w-auto h-full object-cover rounded" />
                     <img src="/companylogo/20240817_203501.jpg" alt="We are chilling" className="w-full h-full object-fill rounded" />
                     <img src="/companylogo/20240817_235331.jpg" alt="We are chilling" className="w-full h-full object-cover rounded" />
