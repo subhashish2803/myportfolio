@@ -78,7 +78,7 @@ const ProjectCard = ({ project }) => {
       ref={ref}
       animate={controls}
       initial={{ scale: 0.8, opacity: 0 }}
-      className="flex flex-col md:flex-row items-center justify-center w-full mb-16"
+      className="flex flex-col md:flex-row items-center justify-center w-full "
     >
       <motion.img
         src={project.image}
@@ -359,7 +359,7 @@ export default function Portfolio() {
     <WorkExperience/>
     <Skills/>
       {/* Projects Section */}
-      <section className="py-16 px-6 w-full">
+      <section className="py-10 px-6 w-full">
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
       <div className="space-y-2">
         <div className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -381,7 +381,7 @@ export default function Portfolio() {
       </section>
 
       {/* Strengths Section */}
-      <section className="mt-16 text-center relative z-10 w-full max-w-6xl">
+      <section className=" text-center relative z-10 w-full max-w-6xl mt-8 mb-8">
         <h2 className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
           Strengths
         </h2>
@@ -404,8 +404,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Certifications Section */}
-      <Certifications />
+      
 
       {/* Get in Touch Section */}
       <section className="sm:mt-6 text-center relative z-10">

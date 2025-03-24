@@ -2,23 +2,15 @@ import { useState } from "react";
 
 const experiences = [
   {
-    company: "Trasna.io",
-    logo: "/trasna.io.webp",
-    url: "https://www.trasna.io/",
+    company: "Ceeras It Solution",
+    logo: "/companylogo/ceeras.jpeg",
+    url: "https://www.ceeras.in/",
     position: "Junior Software Developer",
-    duration: "Jun 2023 - Current",
+    duration: "feb 2025 - Current",
     description:
       "Implemented a multi-tenant web dashboard for the MeSH eSIM platform using Flask and PostgreSQL. Developed a scheduler with Celery and RabbitMQ for asynchronous task management. Dockerized deployments and set up CI/CD pipelines with GitLab. Enhanced error detection by 20% using Kibana and optimized system performance with caching."
   },
-  {
-    company: "Squbix Digital",
-    logo: "/squbix.jpg",
-    url: "https://squbix.com/",
-    position: "Software Engineer",
-    duration: "July 2022 - February 2023",
-    description:
-      "Integrated Rust and Substrate for efficient blockchain solutions. Developed responsive React frontends with Redux/Zustand, increasing engagement by 15%. Built secure, privacy-focused Node.js backends. Developed a Chrome extension for the MetaMUI wallet and created a Proton app. Delivered results efficiently in a startup environment under tight deadlines."
-  }
+  
 ];
 
 export default function WorkExperience() {
@@ -69,11 +61,12 @@ export default function WorkExperience() {
                     </svg>
                   </button>
                 </div>
+                <div className="font-sans text-xs font-semibold ">{exp.position}</div>
                 <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right font-semibold">
                   {exp.duration}
                 </div>
-                <div className="font-sans text-xs font-semibold">{exp.position}</div>
               </div>
+              
             </div>
             <div
               className={`overflow-hidden transition-all duration-500 ease-in-out ${openIndex === index ? "max-h-40 opacity-100 py-3" : "max-h-0 opacity-0"}`}
