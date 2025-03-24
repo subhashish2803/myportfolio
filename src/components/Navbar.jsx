@@ -15,7 +15,7 @@ const Navbar = () => {
       <NavItem icon={<MusicIcon />} tooltip="Music" link="/music" />
 
       {/* Docs Link */}
-      <NavItem icon={<DocsIcon />} tooltip="Docs" link="/docs" />
+      <NavItem icon={<DocsIcon />} tooltip="Blog" link="/blog" />
 {/* Vertical Line After Resume */}
 <div className="shrink-0 bg-gray-400 w-[1px] h-6 mx-2"></div>
       {/* GitHub Link */}
