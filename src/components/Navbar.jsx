@@ -36,7 +36,7 @@ const Navbar = () => {
       />
 
       {/* Download Resume Link */}
-      <NavItem icon={<DownloadIcon />} tooltip="Resume" link="/Resume-jan-25.pdf" download="Subhashish_Nayak_Resume.pdf" />
+      <NavItem icon={<DownloadIcon />} tooltip="Resume" link="/Cv.pdf" download="Subhashish_Nayak_Resume.pdf" />
     </nav>
   );
 };
