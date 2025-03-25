@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 
 const BlogSection = () => {
   return (
-    <section id="blog" className="min-h-screen bg-white font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6">
+    <div className="bg-gray-100">
+    <section id="blog" className="min-h-screen font-sans antialiased max-w-2xl mx-auto py-12 sm:py-24 px-6">
       <div className="space-y-12 w-full py-12">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
@@ -22,6 +23,7 @@ const BlogSection = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
