@@ -35,23 +35,26 @@ const BlogPost = () => {
 
                     <hr className="text-gray-300 mt-10 mb-10" />
                     <h3 className="font-sans text-2xl font-bold mb-4">The Self-Improvement Arc</h3>
-                    <p>
-                        In the spirit of being a <strong>better version of myself</strong> (or at least pretending to be one), I decided to start <a href="" className="text-black">LeetCode, and Emerging myself in Coding</a>...
+                    <p className="text-gray-600 dark:text-gray">
+                        In the spirit of being a <strong className="text-black">better version of myself</strong> (or at least pretending to be one), I decided to start <a href="" className="text-black">LeetCode, and Emerging myself in Coding</a>...
                     </p>
 
-                    <hr className="text-gray-300 mt-10 mb-10"/>
+                    <hr className="text-black mt-10 mb-10"/>
 
 
 
                     <h3 className="font-sans text-2xl font-bold mb-4">Capturing Moments – The Start of an Adventure</h3>
                     <h3><strong>The Travel Chronicles: Planes, Friends, and Mady Vibes!!</strong></h3>
-                    <p>Every journey begins with a single step, and mine started with a blend of spirituality, friendship, and exploration.</p>
+                    <p className="text-gray-600 dark:text-gray-400">Every journey begins with a single step, and mine started with a blend of spirituality, friendship, and exploration.</p>
 
                     
-                        <h3><strong>📍 Konark, Puri Jagannath Temple Visit:</strong> <p>My first stop was the stunning <strong>Konark Sun Temple</strong>, a symbol of history and architectural brilliance. Walking through its grand stone carvings, I felt an undeniable connection to the past, imagining the countless stories these walls could tell.</p></h3>
-                        <h3><strong>🍃 Bhubaneswar Evening Strolls & the calmy moon:</strong><p> As the sun set over <strong>Bhubaneswar</strong>, the city’s vibrant streets and calming vibes made for a perfect escape from the daily grind.</p></h3>
-                        <h3><strong> ❄️▶️ -Chilling with Friends:</strong><p> What’s an adventure without great company? From casual hangouts to late-night conversations, these moments reminded me of the importance of surrounding yourself with the right people.</p></h3>
-                        <h3><strong>📹 Candid Memories in Motion:</strong> <p>Of course, a trip isn't complete without capturing it on video!</p></h3>
+                        <h3><strong>📍 Konark, Puri Jagannath Temple Visit:</strong> <p className="text-gray-600">My first stop was the stunning <strong className="text-black">Konark Sun Temple</strong>, a symbol of history and architectural brilliance. Walking through its grand stone carvings, I felt an undeniable connection to the past, imagining the countless stories these walls could tell.</p></h3>
+
+                        <h3><strong>🍃 Bhubaneswar Evening Strolls & the calmy moon:</strong><p className="text-gray-600"> As the sun set over <strong className="text-black">Bhubaneswar</strong>, the city’s vibrant streets and calming vibes made for a perfect escape from the daily grind.</p></h3
+                        >
+                        <h3><strong> ❄️▶️ -Chilling with Friends:</strong><p className="text-gray-600"> What’s an adventure without great company? From casual hangouts to late-night conversations, these moments reminded me of the importance of surrounding yourself with the right people.</p></h3>
+
+                        <h3><strong>📹 Candid Memories in Motion:</strong> <p className="text-gray-600">Of course, a trip isn't complete without capturing it on video!</p></h3>
                     
 
                     <hr className="text-gray-300 mt-10 mb-10" />
