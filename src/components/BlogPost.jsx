@@ -48,13 +48,13 @@ const BlogPost = () => {
                     <p className="text-gray-600 dark:text-gray-400">Every journey begins with a single step, and mine started with a blend of spirituality, friendship, and exploration.</p>
 
                     
-                        <h3><strong>📍 Konark, Puri Jagannath Temple Visit:</strong> <p className="text-gray-600">My first stop was the stunning <strong className="text-black">Konark Sun Temple</strong>, a symbol of history and architectural brilliance. Walking through its grand stone carvings, I felt an undeniable connection to the past, imagining the countless stories these walls could tell.</p></h3>
+                        <h3 className="mt-4 "><strong>📍 Konark, Puri Jagannath Temple Visit:</strong> <p className="text-gray-600">My first stop was the stunning <strong className="text-black">Konark Sun Temple</strong>, a symbol of history and architectural brilliance. Walking through its grand stone carvings, I felt an undeniable connection to the past, imagining the countless stories these walls could tell.</p></h3>
 
-                        <h3><strong>🍃 Bhubaneswar Evening Strolls & the calmy moon:</strong><p className="text-gray-600"> As the sun set over <strong className="text-black">Bhubaneswar</strong>, the city’s vibrant streets and calming vibes made for a perfect escape from the daily grind.</p></h3
+                        <h3 className="mt-4"><strong>🍃 Bhubaneswar Evening Strolls & the calmy moon:</strong><p className="text-gray-600"> As the sun set over <strong className="text-black">Bhubaneswar</strong>, the city’s vibrant streets and calming vibes made for a perfect escape from the daily grind.</p></h3
                         >
-                        <h3><strong> ❄️▶️ -Chilling with Friends:</strong><p className="text-gray-600"> What’s an adventure without great company? From casual hangouts to late-night conversations, these moments reminded me of the importance of surrounding yourself with the right people.</p></h3>
+                        <h3 className="mt-4"><strong> ❄️▶️ -Chilling with Friends:</strong><p className="text-gray-600"> What’s an adventure without great company? From casual hangouts to late-night conversations, these moments reminded me of the importance of surrounding yourself with the right people.</p></h3>
 
-                        <h3><strong>📹 Candid Memories in Motion:</strong> <p className="text-gray-600">Of course, a trip isn't complete without capturing it on video!</p></h3>
+                        <h3 className="mt-4"><strong>📹 Candid Memories in Motion:</strong> <p className="text-gray-600">Of course, a trip isn't complete without capturing it on video!</p></h3>
                     
 
                     <hr className="text-gray-300 mt-10 mb-10" />
