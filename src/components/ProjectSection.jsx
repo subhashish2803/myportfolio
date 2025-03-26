@@ -65,7 +65,7 @@ const ProjectSection = () => {
               <div className="bg-black inline-block text-white px-3 py-1 rounded-md text-sm">
                 Projects
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              <h2 className="text-3xl text-black font-bold tracking-tighter sm:text-5xl">
                 I like building things
               </h2>
               <p className="text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
