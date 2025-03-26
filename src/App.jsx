@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import SongList from "./components/SongList";
 import BlogSection from "./components/BlogSection";
 import BlogPost from "./components/BlogPost";
+import ProjectsSection from "./components/ProjectSection";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/music" element={<SongList />} />
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/blog/:postId" element={<BlogPost />} /> {/* Dynamic Blog Post Route */}
+        <Route path="/projects" element={<ProjectsSection/>} /> {/* Dynamic Blog Post Route */}
       </Routes>
     </>
   );

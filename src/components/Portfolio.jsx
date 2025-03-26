@@ -9,15 +9,7 @@ import Education from "./Education";
 import Skills from "./Skills";
 import WorkExperience from "./WorkExperience";
 const projects = [
-  {
-    title: "Trident Smart Attendance Tracker",
-    description: "An AI-based facial recognition system for tracking student attendance.",
-    image: "/companylogo/slide1.jpg",
-    ideation: "Identified attendance issues and inefficiencies in manual tracking.",
-    development: ["React.js", "Node.js", "OpenCV", "TensorFlow"],
-    deployment: "Hosted on cloud with database integration for real-time tracking.",
-    duration: "3 months (Jan 2025 - Mar 2025)",
-  },
+  
   {
     title: "Technomania Labs",
     description: "A web platform providing structured full-stack development resources.",
@@ -294,7 +286,7 @@ export default function Portfolio() {
               transition={{ duration: 0.8 }}
             >
               <span className="inline-block max-w-[600px] md:text-xl text-black">
-                Software Engineer. I love building things, traveling, and helping people.
+                Frontend Developer. I love building things, traveling, and helping people.
               </span>
             </motion.div>
           </div>
@@ -308,9 +300,9 @@ export default function Portfolio() {
           >
             <span className="relative flex shrink-0 overflow-hidden rounded-full size-38 border">
               <img
-                className="aspect-square h-full w-full brightness-110 contrast-125 grayscale hover:grayscale-0 transition duration-300"
+                className="aspect-square h-full w-full contrast-125 brightness-110"
                 alt="Smruti Dash"
-                src="/companylogo/Myimage1.png"
+                src="/companylogo/Myimage.jpg"
               />
             </span>
           </motion.div>
