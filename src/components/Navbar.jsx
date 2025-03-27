@@ -14,13 +14,15 @@ const Navbar = () => {
       {/* Music Link */}
       <NavItem icon={<MusicIcon />} tooltip="Music" link="/music" />
 
-      {/* Docs Link */}
+      {/* Blog Link */}
       <NavItem icon={<DocsIcon />} tooltip="Blog" link="/blog" />
-{/* Vertical Line After Resume */}
-<div className="shrink-0 bg-gray-400 w-[1px] h-6 mx-2"></div>
+
+      {/* Vertical Line */}
+      <div className="shrink-0 bg-gray-400 w-[1px] h-6 mx-2"></div>
+
       {/* GitHub Link */}
       <NavItem 
-        icon={<img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github" />} 
+        icon={<img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="GitHub" />} 
         tooltip="GitHub" 
         externalLink="https://github.com/subhashish2803" 
       />
@@ -30,25 +32,31 @@ const Navbar = () => {
 
       {/* Instagram Link */}
       <NavItem 
-        icon={<img width="20" height="20" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram" />} 
+        icon={<img width="20" height="20" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="Instagram" />} 
         tooltip="Instagram" 
         externalLink="https://www.instagram.com/_.a.s.h.u.0.3._" 
       />
 
       {/* Download Resume Link */}
-      <NavItem icon={<DownloadIcon />} tooltip="Resume" link="/companylogo/Cv.pdf" download="Subhashish_Nayak_Resume.pdf" />
+      <NavItem icon={<DownloadIcon />} tooltip="Resume" externalLink="/companylogo/Resume-Dubai.pdf" download="Resume-Dubai.pdf" />
     </nav>
   );
 };
 
 const NavItem = ({ icon, tooltip, link, externalLink, download }) => {
   return externalLink ? (
-    <a href={externalLink} target="_blank" rel="noopener noreferrer" className="relative flex flex-col items-center group">
+    <a 
+      href={externalLink} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      download={download} 
+      className="relative flex flex-col items-center group"
+    >
       <IconWrapper>{icon}</IconWrapper>
       <Tooltip text={tooltip} />
     </a>
   ) : (
-    <Link to={link || "#"} download={download} className="relative flex flex-col items-center group">
+    <Link to={link || "#"} className="relative flex flex-col items-center group">
       <IconWrapper>{icon}</IconWrapper>
       <Tooltip text={tooltip} />
     </Link>
