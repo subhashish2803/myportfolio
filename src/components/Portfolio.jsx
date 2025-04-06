@@ -301,7 +301,7 @@ export default function Portfolio() {
             <span className="relative flex shrink-0 overflow-hidden rounded-full size-38 border">
               <img
                 className="aspect-square h-full w-full contrast-125 brightness-110"
-                alt="Smruti Dash"
+                alt="Ashu"
                 src="/companylogo/Myimage.jpg"
               />
             </span>
