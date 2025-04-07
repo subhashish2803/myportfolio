@@ -6,6 +6,8 @@ import SongList from "./components/SongList";
 import BlogSection from "./components/BlogSection";
 import BlogPost from "./components/BlogPost";
 import ProjectsSection from "./components/ProjectSection";
+import Contactme from "./pages/Contactme";
+
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
         <Route path="/blog" element={<BlogSection />} />
         <Route path="/blog/:postId" element={<BlogPost />} /> {/* Dynamic Blog Post Route */}
         <Route path="/projects" element={<ProjectsSection/>} /> {/* Dynamic Blog Post Route */}
+        <Route path="/contactme" element={<Contactme/>} /> {/* Dynamic Blog Post Route */}
       </Routes>
+      
     </>
   );
 };

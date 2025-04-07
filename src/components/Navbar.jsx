@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Code } from "lucide-react";
+import { Code, Mail } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -27,8 +27,9 @@ const Navbar = () => {
         externalLink="https://github.com/subhashish2803" 
       />
 
-      {/* LinkedIn Link */}
-      <NavItem icon={<LinkedInIcon />} tooltip="LinkedIn" externalLink="https://www.linkedin.com/in/subhashish-nayak-422775310" />
+      {/* Mail Link → opens ContactMe route */}
+<NavItem icon={<Mail size={18} />} tooltip="ContactMe" link="/contactme" />
+
 
       {/* Instagram Link */}
       <NavItem 
@@ -98,12 +99,6 @@ const DocsIcon = () => (
     <path d="M2 18h4"></path>
     <rect width="16" height="20" x="4" y="2" rx="2"></rect>
     <path d="M16 2v20"></path>
-  </svg>
-);
-
-const LinkedInIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" className="size-4">
-    <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.5c0-1.105-.895-2-2-2s-2 .895-2 2v5.5h-3v-10h3v1.732c.834-1.225 2.367-2.232 4-2.232 2.481 0 4.5 2.019 4.5 4.5v6z" />
   </svg>
 );
 

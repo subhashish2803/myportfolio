@@ -398,37 +398,40 @@ export default function Portfolio() {
 
       
 
-      {/* Get in Touch Section */}
-      <section className="sm:mt-6 text-center relative z-10">
-        <h2 className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-          Contact
-        </h2>
-        <h2 className="text-3xl font-semibold tracking-tighter sm:text-5xl ">
-          Get in Touch
-        </h2>
-        
-      </section>
-      <section className="text-center py-2">
-        <p className="text-lg mb-8">
-          Want to connect? Send me a message on{" "}
-          <a
-            href="https://www.linkedin.com/in/subhashish-nayak-422775310"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-pink-400 font-semibold hover:underline"
-          >
-            LinkedIn
-          </a>{" "}
-          or{" "}
-          <a
-            href="mailto:your.email@example.com"
-            className="text-pink-400 font-semibold hover:underline"
-          >
-            say hello
-          </a>
-          . I'll try to get back to you as soon as I can!
-        </p>
-      </section>
+      <section id="contact" className="w-full py-12">
+      <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6">
+        <div className="opacity-100 blur-0 translate-y-[-6px]">
+          <div className="space-y-3">
+            <div className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              Contact
+            </div>
+            <h2 className="text-3xl font-semibold tracking-tighter sm:text-5xl">
+              Get in Touch
+            </h2>
+            <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Want to connect?{" "}
+              <a
+                className="text-blue-500 hover:underline"
+                href="https://www.linkedin.com/in/subhashish-nayak-422775310"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Send me a message on LinkedIn
+              </a>{" "}
+              <br />
+              or{" "}
+              <a
+                className="text-blue-500 hover:underline"
+                href="mailto:nayaksubhashish456@gmail.com"
+              >
+                Say Hello
+              </a>
+              . I'll try to get back to you as soon as I can!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
       
       <Navbar />
     </div>

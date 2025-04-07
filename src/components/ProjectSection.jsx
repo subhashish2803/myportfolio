@@ -1,6 +1,7 @@
 import React from "react";
 import { FiGlobe } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
+import Navbar from "./Navbar";
 
 const ProjectSection = () => {
   const projects = [
@@ -125,6 +126,7 @@ const ProjectSection = () => {
           </ul>
         </div>
       </section>
+      <Navbar/>
     </div>
   );
 };
