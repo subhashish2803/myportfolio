@@ -351,7 +351,7 @@ export default function Portfolio() {
     <WorkExperience/>
     <Skills/>
       {/* Projects Section */}
-      <section className="py-10 px-6 w-full">
+      <section className="max-w-2xl mx-auto space-y-4">
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
       <div className="space-y-2">
         <div className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -372,8 +372,8 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Strengths Section */}
-      <section className=" text-center relative z-10 w-full max-w-6xl mt-8 mb-8">
+      {/* Strengths Section 
+      <section className=" max-w-2xl mx-auto space-y-4">
         <h2 className="inline-block bg-black text-white rounded-lg bg-foreground text-background px-3 py-1 text-sm">
           Strengths
         </h2>
@@ -394,7 +394,9 @@ export default function Portfolio() {
             </motion.div>
           ))}
         </div>
+        
       </section>
+      */}
 
       
 

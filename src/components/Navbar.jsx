@@ -39,7 +39,7 @@ const Navbar = () => {
       />
 
       {/* Download Resume Link */}
-      <NavItem icon={<DownloadIcon />} tooltip="Resume" externalLink="/companylogo/Resume-Dubai.pdf" download="Resume-Dubai.pdf" />
+      <NavItem icon={<DownloadIcon />} tooltip="Resume" externalLink="/companylogo/Resume-Ashu.pdf" download="Resume-Dubai.pdf" />
     </nav>
   );
 };
@@ -103,10 +103,7 @@ const DocsIcon = () => (
 );
 
 const DownloadIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-file-down size-4">
-    <path d="M12 18v-6"></path>
-    <path d="m9 15 3 3 3-3"></path>
-  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-down size-4"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M12 18v-6"></path><path d="m9 15 3 3 3-3"></path></svg>
 );
 
 export default Navbar;
